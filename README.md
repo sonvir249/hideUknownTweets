@@ -1,6 +1,6 @@
 # hideUknownTweets
 
-This script is designed to be used on Twitter's homepage to hide tweets from accounts that the user don't follow.
+This script is designed to be used on Twitter's homepage to hide tweets from accounts that the user don't follow on scroll.
 
 ## Installation Instructions
 ### Chrome

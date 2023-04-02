@@ -37,7 +37,12 @@ const hideTweets = () => {
 		}
 	}
 }
-hideTweets();
+// Hide tweets after page load for the first time.
+document.addEventListener('DOMContentLoaded', function() {
+	hideTweets();
+}, false);
+
+// Hide tweets on page scroll.
 window.addEventListener('scroll',(event) => {
 	hideTweets();
     console.log('Hiding tweets...');

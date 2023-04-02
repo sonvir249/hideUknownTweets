@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "hideUknownTweets",
-  "description": "Hide tweets from people you don't follow",
+  "description": "Hide tweets from people you don't follow on scroll.",
   "version": "1.0",
   "content_scripts":[
     {
